@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm *.o *.sym *.map *.sav
+rm *.o *.sym *.map *.sav *.gb
