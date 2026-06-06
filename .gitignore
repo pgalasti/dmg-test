@@ -1,0 +1,5 @@
+# Build/output artifacts (matches template/clean.sh)
+*.o
+*.sym
+*.map
+*.sav
