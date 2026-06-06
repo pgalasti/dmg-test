@@ -1,0 +1,12 @@
+# GDB Compile Test
+
+Template project to get started writing a DMG rom.
+
+
+## Quick Test: 
+```bash
+./build
+
+# You can use any emulator really
+mgba test.gb
+```
