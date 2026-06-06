@@ -1,0 +1,3 @@
+[submodule "template/vendor/hardware.inc"]
+	path = template/vendor/hardware.inc
+	url = https://github.com/gbdev/hardware.inc.git
