@@ -19,3 +19,9 @@ main:
   .loop
     call UpdateSample
     jr .loop
+
+
+section "graphics_data", rom0[GRAPHICS_DATA_ADDRESS_START]
+incbin "tileset.chr"
+incbin "background.tlm"
+incbin "window.tlm"
