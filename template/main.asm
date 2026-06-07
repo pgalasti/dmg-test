@@ -12,9 +12,10 @@ entrypoint:
 
 section "main", rom0
 main:
-  DisableLCD ; We weant to (wait for vblank and) disable the LCD to load tiles into memory
-  ; Tile loading here or maybe in Init secetion?
+  DisableLCD ; We want to (wait for vblank and) disable the LCD to load tiles into memory
   call InitSample
+  EnableLCD
+
   .loop
     call UpdateSample
     jr .loop

@@ -37,4 +37,9 @@ macro DisableLCD
   ld [rLCDC], a
 endm
 
+macro EnableLCD
+  ld a, LCDC_ON | LCDC_BG_ON 
+  ld [rLCDC], a
+endm
+
 endc
